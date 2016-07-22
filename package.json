@@ -6,7 +6,7 @@
     "Github Contributors (https://github.com/cgalvarez/fc-remote-ical/graphs/contributors)"
   ],
   "description": "Javascript parser for ics (rfc5545) and vcard (rfc6350) data",
-  "main": "dist/remote-ical.js",
+  "main": "dist/fc-remote-ical.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/cgalvarez/fc-remote-ical.git"
@@ -41,6 +41,9 @@
   },
   "scripts": {},
   "files": [
-    "dist/remote-ical.js"
+    "dist/fc-remote-ical.js",
+    "dist/fc-remote-ical.min.js",
+    "dist/fc-remote-ical.umd.js",
+    "dist/fc-remote-ical.umd.min.js"
   ]
 }

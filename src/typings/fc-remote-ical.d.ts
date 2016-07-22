@@ -2,7 +2,7 @@ declare var moment: moment.MomentStatic;
 
 interface RemoteSource {
   url: string;
-  options: Object;
+  defaults: Object;
 }
 
 interface IcalEventCallback { (event: ICAL.Component): void; }
@@ -10,7 +10,7 @@ interface FcEventCallback { (event: FullCalendar.EventObject): void; }
 interface FcEventsCallback { (events: Array<FullCalendar.EventObject>): void; }
 
 interface ICALRecurringComponent extends ICAL.Component {
-  options: Object;
+  defaults: Object;
 }
 
 interface FcEventObjectDefaults {

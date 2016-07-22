@@ -23,20 +23,6 @@ export class FCRemoteIcal {
   })();
 
   /**
-   * Dequeues a remote source. When the queue is empty, then inserts
-   * all the found recurring events into the FullCalendar instance.
-   * @internal
-   * @private
-   * @static
-   * @version 1.0.0
-   */
-  private static _dequeue(): void {
-    if (!--FCRemoteIcal._queue) {
-      FCRemoteIcal._$fc.fullCalendar("addEventSource", FCRemoteIcal._expandRecurringEvents);
-    }
-  }
-
-  /**
    * Imports the collection of remote iCalendars provided and inserts them into the desired FullCalendar instance.
    * @param {JQuery} $fc The jQuery object of the FullCalendar DOM element.
    * @param {Array<RemoteSource>} icals The collection of remote iCalendars.
@@ -55,10 +41,24 @@ export class FCRemoteIcal {
       FCRemoteIcal._recurringEvents = [];
       for (let ical of icals) {
         jQuery.get(ical.url, null, function(data) {
-          $fc.fullCalendar("addEventSource", FCRemoteIcal._parseCalendar(data, ical.options));
+          $fc.fullCalendar("addEventSource", FCRemoteIcal._parseCalendar(data, ical.defaults));
           FCRemoteIcal._dequeue();
         }, "text");
       }
+    }
+  }
+
+  /**
+   * Dequeues a remote source. When the queue is empty, then inserts
+   * all the found recurring events into the FullCalendar instance.
+   * @internal
+   * @private
+   * @static
+   * @version 1.0.0
+   */
+  private static _dequeue(): void {
+    if (!--FCRemoteIcal._queue) {
+      FCRemoteIcal._$fc.fullCalendar("addEventSource", FCRemoteIcal._expandRecurringEvents);
     }
   }
 
@@ -67,21 +67,21 @@ export class FCRemoteIcal {
    * callbacks for both event types: unique and recurring.
    * @internal
    * @param {string} ical The iCalendar.
-   * @param {EventObject} options An object with the defaults to apply to the calendar parsed events.
+   * @param {EventObject} defaults An object with the defaults to apply to the calendar parsed events.
    * @private
    * @return {FullCalendar.EventObject[]} The parsed FullCalendar **single** events.
    * @static
    * @version 1.0.0
    */
-  private static _parseCalendar(ical: string, options: FcEventObjectDefaults): Array<FullCalendar.EventObject> {
+  private static _parseCalendar(ical: string, defaults: FcEventObjectDefaults): Array<FullCalendar.EventObject> {
     let uniqueEvents: Array<FullCalendar.EventObject> = [];
     let cbUniqueEvent: IcalEventCallback = (event: ICAL.Component) => {
       FCRemoteIcal._parseEvent(event, (event: FullCalendar.EventObject) => {
-        uniqueEvents.push(FCRemoteIcal._mergeEventOptions(event, options));
+        uniqueEvents.push(FCRemoteIcal._mergeEventOptions(event, defaults));
       });
     };
     let cbRecurringEvent: IcalEventCallback = (event: ICALRecurringComponent) => {
-      event.options = options;
+      event.defaults = defaults;
       FCRemoteIcal._recurringEvents.push(event);
     };
     FCRemoteIcal._parseEvents(ical, cbUniqueEvent, cbRecurringEvent);
@@ -272,8 +272,8 @@ export class FCRemoteIcal {
     let events: Array<FullCalendar.EventObject> = [];
     let event: ICALRecurringComponent;
     for (let event of FCRemoteIcal._recurringEvents) {
-      let options = event.options;
-      delete event.options;
+      let defaults = event.defaults;
+      delete event.defaults;
       FCRemoteIcal._expandRecurringEvent(
         event,
         FCRemoteIcal._momentIcalTime(rangeStart, timezone),
@@ -281,7 +281,7 @@ export class FCRemoteIcal {
         function(event) {
           FCRemoteIcal._parseEvent(event, function(event) {
             FCRemoteIcal._mergeEventOptions(event, {className: ["recurring"]});
-            events.push(FCRemoteIcal._mergeEventOptions(event, options));
+            events.push(FCRemoteIcal._mergeEventOptions(event, defaults));
           });
         }
       );
