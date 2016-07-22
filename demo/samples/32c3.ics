@@ -1,0 +1,498 @@
+BEGIN:VCALENDAR
+PRODID:-//SMW Project//Semantic Result Formats
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:Special:Ask/-5B-5BHas-20object-20type::Event-5D-5D/-3FHas-20event-20title=summary/-3FHas-20start-20time=start/-3FHas-20end-20time=end/-3FHas-20session-20location=location/-3FHas-20url=url/-3FHas-20description=description/format=icalendar/limit=2342/searchlabel=Export-20this-20calendar-20as-20iCal/offset=0
+BEGIN:VEVENT
+SUMMARY:&#34;Mit Dir nicht&#34; - Braucht es eine Bewegungsresolution?
+URL:https://events.ccc.de/congress/2015/wiki/Session:%22Mit_Dir_nicht%22_-_Braucht_es_eine_Bewegungsresolution%3F#_5d631c5cd6c1a5044f3003f4748440e6
+UID:https://events.ccc.de/congress/2015/wiki/Session:%22Mit_Dir_nicht%22_-_Braucht_es_eine_Bewegungsresolution%3F#_5d631c5cd6c1a5044f3003f4748440e6
+DTSTART:20151227T214500
+DTEND:20151227T230000
+LOCATION:Room:Hall 13
+DTSTAMP:20151222T202936
+SEQUENCE:7498
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:&#34;The ananas from SpongeBob SquarePants is a lie!&#34; Wondrous infinite fractions.
+URL:https://events.ccc.de/congress/2015/wiki/Session:%22The_ananas_from_SpongeBob_SquarePants_is_a_lie!%22_Wondrous_infinite_fractions.#_879aa59c82d4453693238aefd85707a8
+UID:https://events.ccc.de/congress/2015/wiki/Session:%22The_ananas_from_SpongeBob_SquarePants_is_a_lie!%22_Wondrous_infinite_fractions.#_879aa59c82d4453693238aefd85707a8
+DTSTART:20151228T150000
+DTEND:20151228T154500
+LOCATION:Room:Hall A.1
+DTSTAMP:20151223T233342
+SEQUENCE:7760
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10 moderne Konzepte, die deiner Lieblingsprogrammiersprache fehlen
+URL:https://events.ccc.de/congress/2015/wiki/Session:10_moderne_Konzepte,_die_deiner_Lieblingsprogrammiersprache_fehlen#_c16575c2e677b75b2263d00b1a31c8ce
+UID:https://events.ccc.de/congress/2015/wiki/Session:10_moderne_Konzepte,_die_deiner_Lieblingsprogrammiersprache_fehlen#_c16575c2e677b75b2263d00b1a31c8ce
+DTSTART:20151229T150000
+DTEND:20151229T160000
+LOCATION:Room:Hall A.1
+DTSTAMP:20151229T110516
+SEQUENCE:9094
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1st Annual Shortbus Screening
+URL:https://events.ccc.de/congress/2015/wiki/Session:1st_Annual_Shortbus_Screening#_1dc8350b7f3ca2402fbe6c46a4dd690f
+UID:https://events.ccc.de/congress/2015/wiki/Session:1st_Annual_Shortbus_Screening#_1dc8350b7f3ca2402fbe6c46a4dd690f
+DTSTART:20151227T201500
+DTEND:20151227T225500
+LOCATION:Room:Hall B
+DTSTAMP:20151218T211900
+SEQUENCE:6672
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:22 harddrives from a Westafrican e-waste dump - Behind the Smart World - Introduction, Hands-on
+URL:https://events.ccc.de/congress/2015/wiki/Session:22_harddrives_from_a_Westafrican_e-waste_dump_-_Behind_the_Smart_World#_76d841769ed18888a0585a64edf82b97
+UID:https://events.ccc.de/congress/2015/wiki/Session:22_harddrives_from_a_Westafrican_e-waste_dump_-_Behind_the_Smart_World#_76d841769ed18888a0585a64edf82b97
+DTSTART:20151228T130000
+DTEND:20151228T150000
+LOCATION:Room:Hall C.4
+DTSTAMP:20151206T173536
+SEQUENCE:4742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:22 harddrives from a Westafrican e-waste dump - Behind the Smart World - Introduction, Hands-on
+URL:https://events.ccc.de/congress/2015/wiki/Session:22_harddrives_from_a_Westafrican_e-waste_dump_-_Behind_the_Smart_World#_1f05352852c9a3561ea9bb132ad3c603
+UID:https://events.ccc.de/congress/2015/wiki/Session:22_harddrives_from_a_Westafrican_e-waste_dump_-_Behind_the_Smart_World#_1f05352852c9a3561ea9bb132ad3c603
+DTSTART:20151229T110000
+DTEND:20151229T130000
+LOCATION:Room:Hall C.4
+DTSTAMP:20151206T173536
+SEQUENCE:4742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:34rtcorg
+URL:https://events.ccc.de/congress/2015/wiki/Session:34rtcorg#_825428565704fc38ea0747d336c2d874
+UID:https://events.ccc.de/congress/2015/wiki/Session:34rtcorg#_825428565704fc38ea0747d336c2d874
+DTSTART:20151228T220000
+DTEND:20151229T000000
+LOCATION:Room:Hall 13
+DTSTAMP:20151227T003958
+SEQUENCE:8742
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A New Business Model for the Internet - Interledger Protocol (ILP) and Frictionless, Universal Payments
+URL:https://events.ccc.de/congress/2015/wiki/Session:A_New_Business_Model_for_the_Internet#_8443a957ff478155acfc2c7733c6cebe
+UID:https://events.ccc.de/congress/2015/wiki/Session:A_New_Business_Model_for_the_Internet#_8443a957ff478155acfc2c7733c6cebe
+DTSTART:20151229T160000
+DTEND:20151229T170000
+LOCATION:Room:Hall 14
+DTSTAMP:20151223T131108
+SEQUENCE:7640
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ADMIN - Versuch 1
+URL:https://events.ccc.de/congress/2015/wiki/Session:ADMIN#_38435aa07389ac3124b6043b87ada0c7
+UID:https://events.ccc.de/congress/2015/wiki/Session:ADMIN#_38435aa07389ac3124b6043b87ada0c7
+DTSTART:20151228T160000
+DTEND:20151228T173000
+LOCATION:Room:Hall C.2
+DTSTAMP:20151217T104820
+SEQUENCE:6475
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Advanced Probiotic Brewing
+URL:https://events.ccc.de/congress/2015/wiki/Session:Advanced_Probiotic_Brewing#_3c1fd9aebc4afd1c41a8d518e340e033
+UID:https://events.ccc.de/congress/2015/wiki/Session:Advanced_Probiotic_Brewing#_3c1fd9aebc4afd1c41a8d518e340e033
+DTSTART:20151228T160000
+DTEND:20151228T180000
+LOCATION:Assembly:Foodhackingbase
+DTSTAMP:20151223T215251
+SEQUENCE:7747
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AfterShock
+URL:https://events.ccc.de/congress/2015/wiki/Session:AfterShock#_d04aad8b0c5388bce073c2791417a0c1
+UID:https://events.ccc.de/congress/2015/wiki/Session:AfterShock#_d04aad8b0c5388bce073c2791417a0c1
+DTSTART:20151228T103000
+DTEND:20151228T140000
+LOCATION:Assembly:Tomorrowland - Gaming utopia dystopia
+DTSTAMP:20151226T204656
+SEQUENCE:8639
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:An Advanced Introduction to GnuPG
+URL:https://events.ccc.de/congress/2015/wiki/Session:An_Advanced_Introduction_to_GnuPG#_5343fddaeff01c89e5a92d4913645756
+UID:https://events.ccc.de/congress/2015/wiki/Session:An_Advanced_Introduction_to_GnuPG#_5343fddaeff01c89e5a92d4913645756
+DTSTART:20151228T160000
+DTEND:20151228T170000
+LOCATION:Room:Hall A.1
+DTSTAMP:20151218T114052
+SEQUENCE:6627
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Analysis of the privacy technology landscape
+URL:https://events.ccc.de/congress/2015/wiki/Session:Analysis_of_the_privacy_technology_landscape#_cb29f4b4e45682993245ff3d24d2390a
+UID:https://events.ccc.de/congress/2015/wiki/Session:Analysis_of_the_privacy_technology_landscape#_cb29f4b4e45682993245ff3d24d2390a
+DTSTART:20151229T170000
+DTEND:20151229T183000
+LOCATION:Room:Hall F
+DTSTAMP:20151213T203156
+SEQUENCE:5925
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anarchism 101
+URL:https://events.ccc.de/congress/2015/wiki/Session:Anarchism_101#_728bf825b0608439934631128dfde2be
+UID:https://events.ccc.de/congress/2015/wiki/Session:Anarchism_101#_728bf825b0608439934631128dfde2be
+DTSTART:20151228T141500
+DTEND:20151228T154500
+LOCATION:Room:Hall 14
+DTSTAMP:20151225T202058
+SEQUENCE:8136
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Angewandte Konsensdemokratie
+URL:https://events.ccc.de/congress/2015/wiki/Session:Angewandte_Konsensdemokratie#_0c6e5d8fcbb7d76511522cc94d9ea57b
+UID:https://events.ccc.de/congress/2015/wiki/Session:Angewandte_Konsensdemokratie#_0c6e5d8fcbb7d76511522cc94d9ea57b
+DTSTART:20151228T130000
+DTEND:20151228T140000
+LOCATION:Room:Hall A.1
+DTSTAMP:20151219T183223
+SEQUENCE:6781
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Angry Hacking: How to win $750,000
+URL:https://events.ccc.de/congress/2015/wiki/Session:Angry_Hacking:_How_to_win_$750,000#_c51b71ab73d04ceb702e150305d0ded9
+UID:https://events.ccc.de/congress/2015/wiki/Session:Angry_Hacking:_How_to_win_$750,000#_c51b71ab73d04ceb702e150305d0ded9
+DTSTART:20151229T183000
+DTEND:20151229T193000
+LOCATION:Room:Hall 13
+DTSTAMP:20151211T062732
+SEQUENCE:5632
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ants and Squirrels go 32c3 UnCiv meetup - Day 1
+URL:https://events.ccc.de/congress/2015/wiki/Session:Ants_and_Squirrels_go_32c3_UnCiv_meetup#_f8534efc13808b5aa609184ca621eeed
+UID:https://events.ccc.de/congress/2015/wiki/Session:Ants_and_Squirrels_go_32c3_UnCiv_meetup#_f8534efc13808b5aa609184ca621eeed
+DTSTART:20151227T150000
+DTEND:20151227T160000
+LOCATION:Room:Hall C.2
+DTSTAMP:20151224T073748
+SEQUENCE:7786
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arcade Vector Gaming
+URL:https://events.ccc.de/congress/2015/wiki/Session:Arcade_Vector_Gaming#_7ba9d89e92e309a433572db8128152d5
+UID:https://events.ccc.de/congress/2015/wiki/Session:Arcade_Vector_Gaming#_7ba9d89e92e309a433572db8128152d5
+DTSTART:20151228T193000
+DTEND:20151228T203000
+LOCATION:Room:Hall A.2
+DTSTAMP:20151225T111351
+SEQUENCE:7994
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ArduinoForTotalNewbies - Day 2
+URL:https://events.ccc.de/congress/2015/wiki/Session:ArduinoForTotalNewbies#_4cb3dba990b5392445164f64311f805c
+UID:https://events.ccc.de/congress/2015/wiki/Session:ArduinoForTotalNewbies#_4cb3dba990b5392445164f64311f805c
+DTSTART:20151228T120000
+DTEND:20151228T153000
+LOCATION:Assembly:HardwareHackingArea
+DTSTAMP:20151221T210113
+SEQUENCE:7271
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ArduinoForTotalNewbies - Day 3
+URL:https://events.ccc.de/congress/2015/wiki/Session:ArduinoForTotalNewbies#_7982a9886b761f2ab0987db9b7f33b8f
+UID:https://events.ccc.de/congress/2015/wiki/Session:ArduinoForTotalNewbies#_7982a9886b761f2ab0987db9b7f33b8f
+DTSTART:20151229T120000
+DTEND:20151229T153000
+LOCATION:Assembly:HardwareHackingArea
+DTSTAMP:20151221T210113
+SEQUENCE:7271
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BACnet (how Building automation works)
+URL:https://events.ccc.de/congress/2015/wiki/Session:BACnet_(how_Building_automation_works)#_9db4ab37595a101fee19c16b4171a43f
+UID:https://events.ccc.de/congress/2015/wiki/Session:BACnet_(how_Building_automation_works)#_9db4ab37595a101fee19c16b4171a43f
+DTSTART:20151229T170000
+DTEND:20151229T180000
+LOCATION:Room:Hall 14
+DTSTAMP:20151229T150525
+SEQUENCE:9166
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beer Brewing For Beginners
+URL:https://events.ccc.de/congress/2015/wiki/Session:Beer_Brewing_For_Beginners#_af284e26489b555a8ecc839acb98887c
+UID:https://events.ccc.de/congress/2015/wiki/Session:Beer_Brewing_For_Beginners#_af284e26489b555a8ecc839acb98887c
+DTSTART:20151228T160000
+DTEND:20151228T183000
+LOCATION:Assembly:Foodhackingbase@CentroSociale
+DTSTAMP:20151227T014106
+SEQUENCE:8776
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beer Tasting - Homebrew beer
+URL:https://events.ccc.de/congress/2015/wiki/Session:Beer_Tasting#_d49d2cbc2489ea90ad751c9ef9f97a16
+UID:https://events.ccc.de/congress/2015/wiki/Session:Beer_Tasting#_d49d2cbc2489ea90ad751c9ef9f97a16
+DTSTART:20151228T210000
+DTEND:20151228T223000
+DTSTAMP:20151228T201501
+SEQUENCE:8997
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Biometriedaten für den Personalausweis
+URL:https://events.ccc.de/congress/2015/wiki/Session:Biometriedaten_f%C3%BCr_den_Personalausweis#_8bee86c2d0fe0b0c92f654426bb36bcc
+UID:https://events.ccc.de/congress/2015/wiki/Session:Biometriedaten_f%C3%BCr_den_Personalausweis#_8bee86c2d0fe0b0c92f654426bb36bcc
+DTSTART:20151228T110000
+DTEND:20151228T114500
+LOCATION:Room:Hall A.1
+DTSTAMP:20151225T203702
+SEQUENCE:8148
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bootstrapping your Pyongyang Startup - Pyongyang Hackerspace
+URL:https://events.ccc.de/congress/2015/wiki/Session:Bootstrapping_your_Pyongyang_Startup#_6de66cd0e7f04c8bab59896761e372fe
+UID:https://events.ccc.de/congress/2015/wiki/Session:Bootstrapping_your_Pyongyang_Startup#_6de66cd0e7f04c8bab59896761e372fe
+DTSTART:20151229T130000
+DTEND:20151229T150000
+LOCATION:Room:Hall A.2
+DTSTAMP:20151207T040126
+SEQUENCE:4796
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bring Linux Presentation Day into your own town
+URL:https://events.ccc.de/congress/2015/wiki/Session:Bring_Linux_Presentation_Day_into_your_own_town#_fc5ae1b5b120e99e8aeab9c73605ef0b
+UID:https://events.ccc.de/congress/2015/wiki/Session:Bring_Linux_Presentation_Day_into_your_own_town#_fc5ae1b5b120e99e8aeab9c73605ef0b
+DTSTART:20151228T180000
+DTEND:20151228T190000
+LOCATION:Room:Hall 14
+DTSTAMP:20151207T091113
+SEQUENCE:4806
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bringing free-as-in-freedom to social networks: what, why, and how
+URL:https://events.ccc.de/congress/2015/wiki/Session:Bringing_free-as-in-freedom_to_social_networks:_what,_why,_and_how#_f399b200568ae4a5410230ab8ba4ba87
+UID:https://events.ccc.de/congress/2015/wiki/Session:Bringing_free-as-in-freedom_to_social_networks:_what,_why,_and_how#_f399b200568ae4a5410230ab8ba4ba87
+DTSTART:20151228T200000
+DTEND:20151228T210000
+LOCATION:Room:Hall 13
+DTSTAMP:20151207T110119
+SEQUENCE:4843
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Build an IoT Empire - Identifying and implementing IoT use cases with sensors and actuators
+URL:https://events.ccc.de/congress/2015/wiki/Session:Build_an_IoT_Empire#_c56cbb66e6c1f2bcbd737cfc51ca9178
+UID:https://events.ccc.de/congress/2015/wiki/Session:Build_an_IoT_Empire#_c56cbb66e6c1f2bcbd737cfc51ca9178
+DTSTART:20151228T173000
+DTEND:20151228T193000
+LOCATION:Room:Hall A.2
+DTSTAMP:20151221T143338
+SEQUENCE:7158
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building Internet of Things devices on the cheap - 101, how to get started with the ESP8266
+URL:https://events.ccc.de/congress/2015/wiki/Session:Building_Internet_of_Things_devices_on_the_cheap#_8244abb567165c18cc0e6b06a4d483bb
+UID:https://events.ccc.de/congress/2015/wiki/Session:Building_Internet_of_Things_devices_on_the_cheap#_8244abb567165c18cc0e6b06a4d483bb
+DTSTART:20151229T140000
+DTEND:20151229T160000
+LOCATION:Room:Hall C.4
+DTSTAMP:20151211T005442
+SEQUENCE:5614
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bürokratie und Verwaltung (und Gesellschaft) hacken!
+URL:https://events.ccc.de/congress/2015/wiki/Session:B%C3%BCrokratie_und_Verwaltung_(und_Gesellschaft)_hacken!#_f140db29935686f2b72146e6f761af40
+UID:https://events.ccc.de/congress/2015/wiki/Session:B%C3%BCrokratie_und_Verwaltung_(und_Gesellschaft)_hacken!#_f140db29935686f2b72146e6f761af40
+DTSTART:20151229T100000
+DTEND:20151229T120000
+LOCATION:Room:Hall A.1
+DTSTAMP:20151225T204846
+SEQUENCE:8155
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bürokratie und Verwaltung (und Gesellschaft) hacken! - (Optional Follow-Up)
+URL:https://events.ccc.de/congress/2015/wiki/Session:B%C3%BCrokratie_und_Verwaltung_(und_Gesellschaft)_hacken!#_6f06e785c15b18f893d7e50948ddc538
+UID:https://events.ccc.de/congress/2015/wiki/Session:B%C3%BCrokratie_und_Verwaltung_(und_Gesellschaft)_hacken!#_6f06e785c15b18f893d7e50948ddc538
+LOCATION:Room:Hall A.1
+DTSTAMP:20151225T204846
+SEQUENCE:8155
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CCC Regiotreffen
+URL:https://events.ccc.de/congress/2015/wiki/Session:CCC_Regiotreffen#_90e7fa9cd0fbe9db6b8a730d5341fb81
+UID:https://events.ccc.de/congress/2015/wiki/Session:CCC_Regiotreffen#_90e7fa9cd0fbe9db6b8a730d5341fb81
+DTSTART:20151229T100000
+DTEND:20151229T130000
+LOCATION:Room:Hall B
+DTSTAMP:20151219T184323
+SEQUENCE:6782
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CCC-CH Treffen/Gettogether
+URL:https://events.ccc.de/congress/2015/wiki/Session:CCC-CH_Treffen/Gettogether#_75abebf75c3ff608f93ed0348bfa7c41
+UID:https://events.ccc.de/congress/2015/wiki/Session:CCC-CH_Treffen/Gettogether#_75abebf75c3ff608f93ed0348bfa7c41
+DTSTART:20151229T151500
+DTEND:20151229T174500
+LOCATION:Room:Hall A.2
+DTSTAMP:20151219T144928
+SEQUENCE:6756
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CTF Aftershow - 32C3 CTF
+URL:https://events.ccc.de/congress/2015/wiki/Session:CTF_Aftershow#_dde23cad55a3ebc00a6bfa8958362c8d
+UID:https://events.ccc.de/congress/2015/wiki/Session:CTF_Aftershow#_dde23cad55a3ebc00a6bfa8958362c8d
+DTSTART:20151229T203000
+DTEND:20151229T230000
+LOCATION:Room:Hall A.1
+DTSTAMP:20151224T155238
+SEQUENCE:7874
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cache attacks and bit flips on your laptop!
+URL:https://events.ccc.de/congress/2015/wiki/Session:Cache_attacks_and_bit_flips_on_your_laptop!#_c05620c1852636fcaed9761e5b110af3
+UID:https://events.ccc.de/congress/2015/wiki/Session:Cache_attacks_and_bit_flips_on_your_laptop!#_c05620c1852636fcaed9761e5b110af3
+DTSTART:20151230T124500
+DTEND:20151230T134500
+LOCATION:Room:Hall C.4
+DTSTAMP:20151229T181504
+SEQUENCE:9223
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chaos West Klangteppich - m0r13 DJ Set
+URL:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_24367693fb4d9b23ded9e639ce137ae7
+UID:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_24367693fb4d9b23ded9e639ce137ae7
+DTSTART:20151228T180000
+DTEND:20151228T200000
+LOCATION:Assembly:Chaos-West
+DTSTAMP:20151228T204403
+SEQUENCE:9007
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chaos West Klangteppich - [[User:couchsofa|couchsofa]] Live Set: Techno, Minimal, Dub, Ambient
+URL:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_b5812d98aefa9478a3598758a675aea4
+UID:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_b5812d98aefa9478a3598758a675aea4
+DTSTART:20151226T210000
+DTEND:20151227T000000
+LOCATION:Assembly:Chaos-West
+DTSTAMP:20151228T204403
+SEQUENCE:9007
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chaos West Klangteppich - [[User:PorCus|PorCus]] DJ Set: Techno
+URL:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_4930de72773e6b3ac1a2d921cc0f5107
+UID:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_4930de72773e6b3ac1a2d921cc0f5107
+DTSTART:20151229T230000
+DTEND:20151230T020000
+LOCATION:Assembly:Chaos-West
+DTSTAMP:20151228T204403
+SEQUENCE:9007
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chaos West Klangteppich - [[User:Emrox|emrox]] DJ Set: Dub Techno
+URL:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_bed88043ae2dc2a597e0da238985a709
+UID:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_bed88043ae2dc2a597e0da238985a709
+DTSTART:20151229T190000
+DTEND:20151229T210000
+LOCATION:Assembly:Chaos-West
+DTSTAMP:20151228T204403
+SEQUENCE:9007
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chaos West Klangteppich - jodoe23 DJ Set: Deep House
+URL:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_5a388ca31c81ed559cc136ca29fa0c72
+UID:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_5a388ca31c81ed559cc136ca29fa0c72
+DTSTART:20151228T010000
+DTEND:20151228T020000
+LOCATION:Assembly:Chaos-West
+DTSTAMP:20151228T204403
+SEQUENCE:9007
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chaos West Klangteppich - [[User:Bam|bam]] DJ Set: Techno/Tech House/Deep Techno
+URL:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_bf51695a3bb58351adcf537c10863116
+UID:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_bf51695a3bb58351adcf537c10863116
+DTSTART:20151229T210000
+DTEND:20151229T230000
+LOCATION:Assembly:Chaos-West
+DTSTAMP:20151228T204403
+SEQUENCE:9007
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chaos West Klangteppich - [[User:Tasmo|tasmo]] DJ Set: Drum'n'Bass/Twerk/Dubstep
+URL:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_51b38e17f697a2aa13f77def0373138f
+UID:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_51b38e17f697a2aa13f77def0373138f
+DTSTART:20151228T200000
+DTEND:20151228T220000
+LOCATION:Assembly:Chaos-West
+DTSTAMP:20151228T204403
+SEQUENCE:9007
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chaos West Klangteppich - [[User:julijane|Juli Jane]] DJ Set: House/Techno/Minimal
+URL:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_9aec93160a41a15b60a7b40b5300ef0c
+UID:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_9aec93160a41a15b60a7b40b5300ef0c
+DTSTART:20151227T210000
+DTEND:20151228T010000
+LOCATION:Assembly:Chaos-West
+DTSTAMP:20151228T204403
+SEQUENCE:9007
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chaos West Klangteppich - [[User:Bam|bam]] DJ Set: Techno/Tech House/Deep Techno
+URL:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_2239b124f5784f31c327a9b678c6f9f1
+UID:https://events.ccc.de/congress/2015/wiki/Session:Chaos_West_Klangteppich#_2239b124f5784f31c327a9b678c6f9f1
+DTSTART:20151228T190000
+DTEND:20151228T210000
+LOCATION:Assembly:Chaos-West
+DTSTAMP:20151228T204403
+SEQUENCE:9007
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cheese Tasting Rendezvous - Centro Sociale located event - Session 3
+URL:https://events.ccc.de/congress/2015/wiki/Session:Cheese_Tasting_Rendezvous#_64cfd781893b0e2ed6e73f2105a8e13a
+UID:https://events.ccc.de/congress/2015/wiki/Session:Cheese_Tasting_Rendezvous#_64cfd781893b0e2ed6e73f2105a8e13a
+DTSTART:20151229T230000
+DTEND:20151230T000000
+LOCATION:Assembly:Foodhackingbase
+DTSTAMP:20151226T191421
+SEQUENCE:8581
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cheese Tasting Rendezvous - Centro Sociale located event - Session 1
+URL:https://events.ccc.de/congress/2015/wiki/Session:Cheese_Tasting_Rendezvous#_cae70c61473b71533e848a1073ae59ed
+UID:https://events.ccc.de/congress/2015/wiki/Session:Cheese_Tasting_Rendezvous#_cae70c61473b71533e848a1073ae59ed
+DTSTART:20151229T210000
+DTEND:20151229T220000
+LOCATION:Assembly:Foodhackingbase
+DTSTAMP:20151226T191421
+SEQUENCE:8581
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cheese Tasting Rendezvous - Centro Sociale located event - Session 1
+URL:https://events.ccc.de/congress/2015/wiki/Session:Cheese_Tasting_Rendezvous#_232229161b6666b7e7a5d308dc104a5d
+UID:https://events.ccc.de/congress/2015/wiki/Session:Cheese_Tasting_Rendezvous#_232229161b6666b7e7a5d308dc104a5d
+DTSTART:20151229T220000
+DTEND:20151229T230000
+LOCATION:Assembly:Foodhackingbase
+DTSTAMP:20151226T191421
+SEQUENCE:8581
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CiTIZEN KiNO - CiTiZEN KiNO #49: the XLterrestrials Guide to Corporate Climate Terror
+URL:https://events.ccc.de/congress/2015/wiki/Session:CiTIZEN_KiNO#_3a8cb961832ee4965116f963ec518d29
+UID:https://events.ccc.de/congress/2015/wiki/Session:CiTIZEN_KiNO#_3a8cb961832ee4965116f963ec518d29
+DTSTART:20151229T200000
+DTEND:20151229T213000
+LOCATION:Room:Hall C.4
+DTSTAMP:20151229T031841
+SEQUENCE:9071
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Codefor.de / OK-Labs Meetup
+URL:https://events.ccc.de/congress/2015/wiki/Session:Codefor.de_/_OK-Labs_Meetup#_8af75f077a9330039b71deb04d42832e
+UID:https://events.ccc.de/congress/2015/wiki/Session:Codefor.de_/_OK-Labs_Meetup#_8af75f077a9330039b71deb04d42832e
+LOCATION:Room:Hall C.1
+DTSTAMP:20151229T220723
+SEQUENCE:9262
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Codefor.de OK-Labs Meetup
+URL:https://events.ccc.de/congress/2015/wiki/Session:Codefor.de_OK-Labs_Meetup#_b79e0b03190ee62f8abcc7eff752c42a
+UID:https://events.ccc.de/congress/2015/wiki/Session:Codefor.de_OK-Labs_Meetup#_b79e0b03190ee62f8abcc7eff752c42a
+DTSTAMP:20151229T220246
+SEQUENCE:9260
+END:VEVENT
+END:VCALENDAR

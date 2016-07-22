@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>RemoteIcal demo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.0/fullcalendar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.0/fullcalendar.print.css" media="print" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.0/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.2.2/ical.min.js"></script>
+    <script type="text/javascript" src="../dist/fc-remote-ical.umd.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var $fc = jQuery("#calendar");
+        $fc.fullCalendar({
+          header: {
+            left: "prev,next today",
+            center: "title",
+            right: "month,agendaWeek,agendaDay"
+          },
+          defaultView: "month",
+          defaultDate: "2016-03-01"
+        });
+        FCRemoteIcal.import($fc, [
+          { url: "samples/ical/events.ics", options: { color: "gold" } },
+          { url: "samples/ical/32c3.ics" },
+          { url: "samples/ical/daily_recur.ics", options: { color: "lightyellow" } }
+        ]);
+      });
+    </script>
+
+    <style>
+      body {
+        font-family:monospace;
+        font-size 12px;
+      }
+      #calendar {
+        max-width: 900px;
+        margin: 0 auto 2em;
+      }
+      .daily-recur {
+        background:red;
+      }
+      .event-tgh9qho17b07pk2n2ji3gluansgooglecom {
+        background:green;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Most of the demo events are between December 2015 and March 2016.</p>
+    <div id="calendar"></div>
+  </body>
+</html>

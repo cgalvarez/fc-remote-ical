@@ -1,0 +1,5 @@
+node_modules/
+src/typings/globals/
+src/typings/modules/
+src/typings/index.d.ts
+npm-debug.log

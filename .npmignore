@@ -1,0 +1,6 @@
+dist/*.js.map
+dist/*.d.ts
+node_modules/
+src/
+gulpfile.js
+npm-debug.log
