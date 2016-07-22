@@ -1,17 +1,16 @@
+# FCRemoteIcal
+
 FCRemoteIcal is a FullCalendar plugin that imports iCalendars (`.ics`) events into [FullCalendar][0] using [ical.js][1].
 
-Demo
-----
-[https://cgalvarez.github.io/fc-remote-ical/demo/][6]
+## Demo
+Checkout the demo here: [https://cgalvarez.github.io/fc-remote-ical/demo/][6]
 
-Usage
------
-
+## Usage
 FullCalendar depends on [Moment.js][2] and [jQuery][3].
 
 FCRemoteIcal depends on [FullCalendar][0], [jQuery][3] and [ical.js][1].
 
-1. Load all the dependencies in order.
+**Step 1)** Load all the dependencies in order.
 ```html
 <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.0/fullcalendar.css" rel="stylesheet" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.0/fullcalendar.print.css" rel="stylesheet" media="print" />
@@ -20,11 +19,13 @@ FCRemoteIcal depends on [FullCalendar][0], [jQuery][3] and [ical.js][1].
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.0/fullcalendar.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.2.2/ical.min.js"></script>
 ```
-2. Then load the plugin.
+
+**Step 2)** Then load the plugin.
 ```html
 <script type="text/javascript" src="../dist/fc-remote-ical.umd.min.js"></script>
 ```
-3. Create the FullCalendar instance.
+
+**Step 3)** Create the FullCalendar instance.
 ```javascript
   $(document).ready(function() {
     var $fc = jQuery("#calendar");
@@ -32,7 +33,8 @@ FCRemoteIcal depends on [FullCalendar][0], [jQuery][3] and [ical.js][1].
     ...
   });
 ```
-4. Finally call `FCRemoteIcal.import()` with your desired remote sources and settings.
+
+**Step 4)** Finally call `FCRemoteIcal.import()` with your desired remote sources and settings.
 ```javascript
 FCRemoteIcal.import($fc, [
   { url: "samples/ical/events.ics", options: { color: "gold" } },
@@ -40,11 +42,11 @@ FCRemoteIcal.import($fc, [
   { url: "samples/ical/daily_recur.ics", options: { color: "magenta" } }
 ]);
 ```
+This use assumes that you want the plugin to be available at browser top scope (`window.FCRemoteIcal`), but you can load the plugin with a module loader like [Require.js][9] or [Browserify][10]. I'm currently using it with [angular-meteor][11] and the schedule component of [PrimeNG][12], which is based on FullCalendar but uses Angular2.
 
-API
----
+## API
 
-## `FCRemoteIcal.import($fc: JQuery, remoteSources: Array<Object>)`
+### `FCRemoteIcal.import($fc: JQuery, remoteSources: Array<Object>)`
 Imports the collection of remote iCalendars provided and inserts them into the desired FullCalendar instance.
 
 - `$fc` is the jQuery object of the native DOM element used to create the FullCalendar instance.
@@ -56,23 +58,21 @@ Imports the collection of remote iCalendars provided and inserts them into the d
 
 Check the [demo][6] to see a real implementation.
 
-Advices
--------
+## Advices
 
 1. DO NOT use jQuery 3.0. It is not currently supported by FullCalendar.
 2. Make sure that your FullCalendar instance is fully rendered before trying to import any remote iCalendar which contains recurring events. The events will be imported successfully, but you will get JavaScript errors. This is because of recurring events require the range of the current FullCalendar instance view (start/end date); if FullCalendar is not fully rendered, those will be undefined and you'll subsequently get those JS errors.
 
-License
--------
+## License
 MIT License.
 
-Authors & Contributors
-----------------------
-2016 [Carlos García][4]
+## Author
+2016 Carlos García.
 
 Initially based on [icalendar2fullcalendar][7] by 2733.
 
-[Contributors][8]
+## Contributions
+[Contributors][8].
 
 The project sources are on the folder `src/fc-remote-ical.ts`. Contributions must use TypeScript.
 
@@ -87,3 +87,7 @@ Feel free to make a pull request if you want to add a new feature or fix a bug, 
 [6]: https://cgalvarez.github.io/fc-remote-ical/demo/
 [7]: https://github.com/2733/icalendar2fullcalendar
 [8]: https://github.com/cgalvarez/fc-remote-ical/graphs/contributors
+[9]: http://requirejs.org/
+[10]: http://browserify.org/
+[11]: http://www.angular-meteor.com/
+[12]: http://www.primefaces.org/primeng/
