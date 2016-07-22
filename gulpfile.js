@@ -1,4 +1,5 @@
 // Node.js modules
+var del = require("del");
 var exec = require("child_process").exec;
 var fs = require("fs");
 var sprintf = require("sprintf");
@@ -11,12 +12,8 @@ var typings = require("gulp-typings");
 var uglify = require("gulp-uglify");
 var umd = require("gulp-umd");
 
-// Project variables
-var namespace = "FCRemoteIcal";
-var mainFile = "fc-remote-ical.js";
-
 // TASK: Install required type definitions if not already installed
-gulp.task("typings",function(cb) {
+gulp.task("typings", function(cb) {
   try {
     fs.accessSync("src/typings/index.d.ts", fs.F_OK);
     cb();
@@ -27,7 +24,7 @@ gulp.task("typings",function(cb) {
 });
 
 // TASK: Transpile TypeScript into JavaScript
-gulp.task("tsc", ["typings"], function(cb) {
+gulp.task("tsc", ["typings", "clean"], function(cb) {
   exec("node_modules/typescript/bin/tsc --project src", function (err, stdout, stderr) {
     if (stdout) console.log(stdout);
     if (stderr) console.log(stderr);
@@ -36,13 +33,15 @@ gulp.task("tsc", ["typings"], function(cb) {
 });
 
 // TASK: Convert the transpiled JavaScript into an UMD module
+var pluginName = "FCRemoteIcal";
+var getPluginName = function(file) { return pluginName; };
 gulp.task("umd", ["tsc"], function() {
-  return gulp.src("dist/" + mainFile)
-    .pipe(replace(sprintf("exports.%1$s = %1$s;\n", namespace), ""))
+  return gulp.src("dist/*.js")
+    .pipe(replace(sprintf("exports.%1$s = %1$s;\n", pluginName), ""))
     .pipe(replace(/\/\/# sourceMappingURL=.*/g, "\n"))
     .pipe(umd({
-      exports: function(file) { return namespace; },
-      namespace: function(file) { return namespace; }
+      exports: getPluginName,
+      namespace: getPluginName
     }))
     .pipe(rename({suffix: ".umd"}))
     .pipe(gulp.dest("dist"));
@@ -50,7 +49,7 @@ gulp.task("umd", ["tsc"], function() {
 
 // TASK: Minify UMD file
 gulp.task("minify", ["umd"], function(cb) {
-  return gulp.src("dist/*.umd.js")
+  return gulp.src("dist/*.js")
     .pipe(uglify({
         mangle: true,
         preserveComments: "license"
@@ -59,5 +58,17 @@ gulp.task("minify", ["umd"], function(cb) {
     .pipe(gulp.dest("dist"));
 });
 
+// TASK: Clean output folders
+gulp.task('clean', function () {
+  return del(["dist/**/*"]);
+});
+gulp.task("clean:all", ["clean"], function () {
+  return del([
+    "src/typings/**/*",
+    "!src/typings/fc-remote-ical.d.ts",
+    "!src/typings/ical.d.ts",
+  ]);
+});
+
 // Default task
-gulp.task("default", ["typings", "tsc", "umd", "minify"]);
+gulp.task("default", ["clean", "typings", "tsc", "umd", "minify"]);
